@@ -59,24 +59,28 @@ body {
    cursor: pointer;
 }
 
-.result-container {
-   position: absolute;
-   height: 200px;
-   display: flex;
-   font-weight: bolder;
-   font-size: 40px;
-   top: 600px;
-   flex-direction: column;
-   align-items: center;
-   justify-content: space-evenly
+.score, .user-score, .npc-score {
+   font-family: 'Roboto Mono';
+   font-size: 35px;
+   font-weight: bold;
+}
+
+.user-score {
+   color: #B6C867;
+}
+
+.npc-score {
+   color: #FF4848;
 }
 
 .main-container button{
    border: 0px;
    border-radius: 10px;
    height: 50px;
-   width: 100px;
+   width: 130px;
    background-color: #FDF5CA;
    font-weight: bold;
    font-size: 15px;
+   cursor: pointer;
+   visibility: hidden;
 }

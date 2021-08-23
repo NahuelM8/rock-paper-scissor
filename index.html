@@ -6,6 +6,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="styles.css">
    <title>Piedra, papel o tijera | Created by C. Nahuel Morocho</title>
 </head>
@@ -15,16 +16,15 @@
          <h1>Piedra, papel o tijera</h1>
          <h2>¿Seras capáz de ganarle a la <span>máquina</span>? Prueba tu suerte...</h2>
       </div>
+      <div class="score-container">
+         <p class="score"><span class="user-score">0</span> | <span class="npc-score">0</span></p>
+      </div>
       <div class="game-container">
          <div class="rock-box"><img class="img-rock img" src="resources/rock.svg" alt="Seleccionar"></div>
          <div class="paper-box"><img class="img-paper img" src="resources/paper.svg" alt="Seleccionar"></div>
          <div class="scissor-box"><img class="img-scissor img" src="resources/scissor.svg" alt="Seleccionar"></div>
       </div>
-      <div class="result-container">
-         <p class="result"></p>
-         <p class="score"><span clas="user-score">0</span> | <span class="npc-score">0</span></p>
-      </div>
-      <button >JUGAR</button>
+      <button class="btn-play-again">Volver a jugar</button>
    </div>
    <script src="app.js"></script>
 </body>
